@@ -31,14 +31,14 @@ install` is run installing the dependencies specified in `package.json`.
 The images can be customized by passing [build arguments] to `docker` to `docker build`.
 The following arguments can be used:
 
-`TINI_VERSION`
-: the APK version of [`tini`](https://pkgs.alpinelinux.org/package/v3.4/community/x86_64/tini) to install
+* `TINI_VERSION`
+the APK version of [`tini`](https://pkgs.alpinelinux.org/package/v3.4/community/x86_64/tini) to install
 
-`NODEJS_VERSION`
-: the APK version of [`nodejs`](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nodejs) to install
+* `NODEJS_VERSION`
+ the APK version of [`nodejs`](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nodejs) to install
 
-`APP_DIR`
-: the directory to install the application to (`onbuild` only)
+* `APP_DIR`
+ the directory to install the application to (`onbuild` only)
 
 [node.js]:         https://nodejs.org/en/
 [tini]:            https://github.com/krallin/tini
