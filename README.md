@@ -1,5 +1,7 @@
 # Alpine Node Docker image
 
+[![enil/alpine-node](http://dockeri.co/image/enil/alpine-node)](https://hub.docker.com/r/enil/alpine-node/)
+
 A Docker image running [node.js] with [tini][] on [Alpine Linux][].
 The repo contains Dockerfiles for images for node.js `v6.2` including an `onbuild` variant.
 
